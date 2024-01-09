@@ -1432,13 +1432,298 @@ const Home = () => {
         </div>
         {/* <!-- Blog area end here --> */}
         {/* <!-- Footer Area Start --> */}
-        {/* Footer Area ends */}
+        <div className="footer-area">
+            <div className="footer-container">
+                <div className="footer-top">
+                    <div className="container">
+                        <div className="row">
+                            {/* <!-- Start single blog --> */}
+                            <div className="col-md-6 col-lg-3 mb-md-30px mb-lm-30px">
+                                <div className="single-wedge">
+                                    <div className="footer-logo">
+                                        <a href="index.html"><img src="assets/images/logo/footer-logo.png" alt=""/></a>
+                                    </div>
+                                    <p className="about-text">Lorem ipsum dolor sit amet consl adipisi elit, sed do eiusmod templ incididunt ut labore
+                                    </p>
+                                    <ul className="link-follow">
+                                        <li>
+                                            <a className="m-0" title="Twitter" target="_blank" rel="noopener noreferrer" href="#"><i className="fa fa-facebook"
+                                                aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a title="Tumblr" target="_blank" rel="noopener noreferrer" href="#"><i className="fa fa-tumblr" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a title="Facebook" target="_blank" rel="noopener noreferrer" href="#"><i className="fa fa-twitter" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a title="Instagram" target="_blank" rel="noopener noreferrer" href="#"><i className="fa fa-instagram" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            {/* <!-- End single blog --> */}
+                            {/* <!-- Start single blog --> */}
+                            <div className="col-md-6 col-lg-3 col-sm-6 mb-lm-30px pl-lg-60px">
+                                <div className="single-wedge">
+                                    <h4 className="footer-herading">Services</h4>
+                                    <div className="footer-links">
+                                        <div className="footer-row">
+                                            <ul className="align-items-center">
+                                                <li className="li"><a className="single-link" href="my-account.html">My Account</a></li>
+                                                <li className="li"><a className="single-link" href="contact.html">Contact</a></li>
+                                                <li className="li"><a className="single-link" href="cart.html">Shopping cart</a></li>
+                                                <li className="li"><a className="single-link" href="shop-left-sidebar.html">Shop</a></li>
+                                                <li className="li"><a className="single-link" href="login.html">Services Login</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <!-- End single blog --> */}
+                            {/* <!-- Start single blog --> */}
+                            <div className="col-md-6 col-lg-3 col-sm-6 mb-lm-30px pl-lg-40px">
+                                <div className="single-wedge">
+                                    <h4 className="footer-herading">My Account</h4>
+                                    <div className="footer-links">
+                                        <div className="footer-row">
+                                            <ul className="align-items-center">
+                                                <li className="li"><a className="single-link" href="my-account.html">My Account</a></li>
+                                                <li className="li"><a className="single-link" href="contact.html">Contact</a></li>
+                                                <li className="li"><a className="single-link" href="cart.html">Shopping cart</a></li>
+                                                <li className="li"><a className="single-link" href="shop-left-sidebar.html">Shop</a></li>
+                                                <li className="li"><a className="single-link" href="login.html">Services Login</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <!-- End single blog --> */}
+                            {/* <!-- Start single blog --> */}
+                            <div className="col-md-6 col-lg-3 col-sm-12">
+                                <div className="single-wedge">
+                                    <h4 className="footer-herading">Contact Info</h4>
+                                    <div className="footer-links">
+                                        {/* <!-- News letter area --> */}
+                                        <p className="address">Address: Your Address Goes Here.</p>
+                                        <p className="phone">Phone/Fax:<a href="tel:0123456789"> 0123456789</a></p>
+                                        <p className="mail">Email:<a href="mailto:demo@example.com"> demo@example.com</a></p>
+                                        <p className="mail"><a href="https://demo@example.com"> demo@example.com</a></p>
+                                        {/* <!-- News letter area  End --> */}
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <!-- End single blog --> */}
+                        </div>
+                    </div>
+                </div>
+                <div className="footer-bottom">
+                    <div className="container">
+                        <div className="line-shape-top line-height-1">
+                            <div className="row flex-md-row-reverse align-items-center">
+                                <div className="col-md-6 text-center text-md-end">
+                                    <div className="payment-mth"><a href="#"><img className="img img-fluid" src="assets/images/icons/payment.png" alt="payment-image"/></a></div>
+                                </div>
+                                <div className="col-md-6 text-center text-md-start">
+                                    <p className="copy-text"> © 2022 <strong>Hmart</strong> Made With <i className="fa fa-heart" aria-hidden="true"></i> By <a className="company-name" href="https://themeforest.net/user/codecarnival/portfolio">
+                                            <strong> Codecarnival </strong></a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {/* <!-- Footer Area End --> */}
     </div>
-{/* main wrapper ends here */}
 
-   
 
-{/* here was modal component  */}
+    {/* <!-- Modal --> */}
+    <div className="modal modal-2 fade" id="exampleModal" tabIndex="-1" role="dialog">
+        <div className="modal-dialog modal-dialog-centered" role="document">
+            <div className="modal-content">
+                <div className="modal-body">
+                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"> <i className="pe-7s-close"></i></button>
+                    <div className="row">
+                        <div className="col-lg-6 col-sm-12 col-xs-12 mb-lm-30px mb-md-30px mb-sm-30px">
+                            {/* <!-- Swiper --> */}
+                            <div className="swiper-container gallery-top">
+                                <div className="swiper-wrapper">
+                                    <div className="swiper-slide">
+                                        <img className="img-responsive m-auto" src="assets/images/product-image/zoom-image/1.webp" alt=""/>
+                                    </div>
+                                    <div className="swiper-slide">
+                                        <img className="img-responsive m-auto" src="assets/images/product-image/zoom-image/2.webp" alt=""/>
+                                    </div>
+                                    <div className="swiper-slide">
+                                        <img className="img-responsive m-auto" src="assets/images/product-image/zoom-image/3.webp" alt=""/>
+                                    </div>
+                                    <div className="swiper-slide">
+                                        <img className="img-responsive m-auto" src="assets/images/product-image/zoom-image/4.webp" alt=""/>
+                                    </div>
+                                    <div className="swiper-slide">
+                                        <img className="img-responsive m-auto" src="assets/images/product-image/zoom-image/5.webp" alt=""/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="swiper-container gallery-thumbs mt-20px slider-nav-style-1 small-nav">
+                                <div className="swiper-wrapper">
+                                    <div className="swiper-slide">
+                                        <img className="img-responsive m-auto" src="assets/images/product-image/small-image/1.webp" alt=""/>
+                                    </div>
+                                    <div className="swiper-slide">
+                                        <img className="img-responsive m-auto" src="assets/images/product-image/small-image/2.webp" alt=""/>
+                                    </div>
+                                    <div className="swiper-slide">
+                                        <img className="img-responsive m-auto" src="assets/images/product-image/small-image/3.webp" alt=""/>
+                                    </div>
+                                    <div className="swiper-slide">
+                                        <img className="img-responsive m-auto" src="assets/images/product-image/small-image/4.webp" alt=""/>
+                                    </div>
+                                    <div className="swiper-slide">
+                                        <img className="img-responsive m-auto" src="assets/images/product-image/small-image/5.webp" alt=""/>
+                                    </div>
+                                </div>
+                                {/* <!-- Add Arrows --> */}
+                                <div className="swiper-buttons">
+                                    <div className="swiper-button-next"></div>
+                                    <div className="swiper-button-prev"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 col-sm-12 col-xs-12" data-aos="fade-up" data-aos-delay="200">
+                            <div className="product-details-content quickview-content">
+                                <h2>Modern Smart Phone</h2>
+                                <div className="pricing-meta">
+                                    <ul className="d-flex">
+                                        <li className="new-price">$20.90</li>
+                                    </ul>
+                                </div>
+                                <div className="pro-details-rating-wrap">
+                                    <div className="rating-product">
+                                        <i className="fa fa-star"></i>
+                                        <i className="fa fa-star"></i>
+                                        <i className="fa fa-star"></i>
+                                        <i className="fa fa-star"></i>
+                                        <i className="fa fa-star"></i>
+                                    </div>
+                                    <span className="read-review"><a className="reviews" href="#">( 2 Review )</a></span>
+                                </div>
+                                <p className="mt-30px">Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmll tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mill veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exet commodo consequat.
+                                    Duis aute irure dolor</p>
+                                <div className="pro-details-categories-info pro-details-same-style d-flex m-0">
+                                    <span>SKU:</span>
+                                    <ul className="d-flex">
+                                        <li>
+                                            <a href="#">Ch-256xl</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="pro-details-categories-info pro-details-same-style d-flex m-0">
+                                    <span>Categories: </span>
+                                    <ul className="d-flex">
+                                        <li>
+                                            <a href="#">Smart Device, </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">ETC</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="pro-details-categories-info pro-details-same-style d-flex m-0">
+                                    <span>Tags: </span>
+                                    <ul className="d-flex">
+                                        <li>
+                                            <a href="#">Smart Device, </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Phone</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="pro-details-quality">
+                                    <div className="cart-plus-minus">
+                                        <input className="cart-plus-minus-box" type="text" name="qtybutton" value="1" />
+                                    </div>
+                                    <div className="pro-details-cart">
+                                        <button className="add-cart"> Add To
+                                            Cart</button>
+                                    </div>
+                                    <div className="pro-details-compare-wishlist pro-details-wishlist ">
+                                        <a href="wishlist.html"><i className="pe-7s-like"></i></a>
+                                    </div>
+                                </div>
+                                <div className="payment-img">
+                                    <a href="#"><img src="assets/images/icons/payment.png" alt=""/></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {/* <!-- Modal Cart --> */}
+     <div className="modal customize-className fade" id="exampleModal-Cart" tabIndex="-1" aria-hidden="true">
+        <div className="modal-dialog modal-dialog-centered">
+            <div className="modal-content">
+                <div className="modal-body text-center">
+                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"><i className="pe-7s-close"></i></button>
+                    <div className="tt-modal-messages">
+                        <i className="pe-7s-check"></i> Added to cart successfully!
+                    </div>
+                    <div className="tt-modal-product">
+                        <div className="tt-img">
+                            <img src="assets/images/product-image/1.webp" alt="Modern Smart Phone"/>
+                        </div>
+                        <h2 className="tt-title"><a href="#">Modern Smart Phone</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="modal customize-className fade" id="exampleModal-Wishlist" tabIndex="-1" aria-hidden="true">
+        <div className="modal-dialog modal-dialog-centered">
+            <div className="modal-content">
+                <div className="modal-body text-center">
+                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"><i className="pe-7s-close"></i></button>
+                    <div className="tt-modal-messages">
+                        <i className="pe-7s-check"></i> Added to Wishlist successfully!
+                    </div>
+                    <div className="tt-modal-product">
+                        <div className="tt-img">
+                            <img src="assets/images/product-image/1.webp" alt="Modern Smart Phone"/>
+                        </div>
+                        <h2 className="tt-title"><a href="#">Modern Smart Phone</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="modal customize-className fade" id="exampleModal-Compare" tabIndex="-1" aria-hidden="true">
+        <div className="modal-dialog modal-dialog-centered">
+            <div className="modal-content">
+                <div className="modal-body text-center">
+                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"><i className="pe-7s-close"></i></button>
+                    <div className="tt-modal-messages">
+                        <i className="pe-7s-check"></i> Added to compare successfully!
+                    </div>
+                    <div className="tt-modal-product">
+                        <div className="tt-img">
+                            <img src="assets/images/product-image/1.webp" alt="Modern Smart Phone"/>
+                        </div>
+                        <h2 className="tt-title"><a href="#">Modern Smart Phone</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
 
         </div>

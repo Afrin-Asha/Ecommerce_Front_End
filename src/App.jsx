@@ -1,21 +1,19 @@
 import { useState } from 'react'
-import viteLogo from '/vite.svg'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-import HomePage from './pages/HomePage'
+import HomePage from './Pages/HomePage'
 import ContactPage from './pages/ContactPage'
-import AccountPage from './pages/AccountPage'
-import BlogPage from './pages/BlogPage'
+import AccountPage from './Pages/AccountPage'
+import BlogPage from './Pages/BlogPage'
 import ProductsPage from './Pages/ProductsPage'
-import ThankYouPage from './pages/ThankYouPage'
-import FAQPage from './pages/FAQPage'
-import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
-import CartPage from './pages/CartPage'
+import ThankYouPage from './Pages/ThankYouPage'
+import FAQPage from './Pages/FAQPage'
+import PrivacyPolicyPage from './Pages/PrivacyPolicyPage'
+import CartPage from './Pages/CartPage'
 import PageNotFound from './Pages/PageNotFound'
-import ReviewPage from './pages/ReviewPage'
-import SearchPage from './pages/SearchPage'
-import checkoutPage from './pages/checkoutPage'
-
+import ReviewsPage from './Pages/ReviewsPage'
+import SearchPage from './Pages/SearchPage'
+import CheckoutPage from './Pages/CheckoutPage'
 function App() {
   return (
     
@@ -31,7 +29,7 @@ function App() {
       <Route path="/account" element={<AccountPage/>} />
       <Route path="/blog" element={<BlogPage/>} />
       <Route path="/cart" element={<CartPage/>} />
-      <Route path="/checkout" element={<checkoutPage/>} />
+      <Route path="/checkout" element={<CheckoutPage/>} />
       <Route path="/privacy_policy" element={<PrivacyPolicyPage/>} /> 
       <Route path="*" element={<PageNotFound/>} />
     </Routes>
